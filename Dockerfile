@@ -1,4 +1,4 @@
-FROM registry.fedoraproject.org/fedora-minimal:44
+FROM registry.fedoraproject.org/fedora-minimal:45
 
 RUN dnf5 update -y
 RUN dnf5 install rsync -y
